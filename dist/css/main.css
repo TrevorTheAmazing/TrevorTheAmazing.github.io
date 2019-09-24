@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 193px;
       height: 193px;
-      background: url("/img/portrait.jpg");
+      background: url("/dist/img/portrait.jpg");
       background-repeat: no-repeat;
       background-position: top center;
       justify-content: center;
