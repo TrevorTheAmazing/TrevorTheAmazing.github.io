@@ -29,6 +29,32 @@ $background-opacity: 0.9;
   }
 }
 
+//experiment
+//iPhone XR
+// 1792x828 @ 326ppi
+@media only screen and (device-width: 414px)
+                   and (device-height: 896px)
+                   and (-webkit-device-pixel-ratio : 2){
+                     @content;
+                   }
+
+//iPhone XS
+// 2436x1125 @ 458ppi
+@media only screen and (device-width: 375px)
+                   and (device-height: 812px)
+                   and (-webkit-device-pixel-ratio : 3){
+                     @content;
+                   }
+
+//iPhone XR
+// 2688x1242 @ 458ppi
+@media only screen and (device-width: 414px)
+                   and (device-height: 896px)
+                   and (-webkit-device-pixel-ratio : 3){
+                     @content;
+                   }
+
+
 //set text color
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
